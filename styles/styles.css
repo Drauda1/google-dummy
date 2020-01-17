@@ -1,0 +1,85 @@
+.container {
+    text-align: center;
+    width:100%;
+    padding-top:230px;
+  }
+
+.search-whole{
+    position: relative;
+    align-items: center;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #e6e2e2;
+    border-radius: 50px;
+    height: 25px;
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.search-whole:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.looking-glass{
+    float: left;
+    height: 25px;
+    color: grey;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-search-bar{
+    border: none;
+    background: none;
+    float: left;
+    padding-left: 30px;
+    line-height: 25px;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 300;
+}
+
+.google-logo{
+    height: 230px;
+}
+
+.buttons{
+    padding-top: 35px;
+}
+
+button{
+    font-family: Arial;
+    font-size: 20px;
+    color: rgb(102, 101, 101);
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background-color:  #f2f2f2;
+    
+    
+}
+
+button:hover {
+    box-shadow:0 0 1px #102447;
+    color: black;
+    background-color: #f1f1f1;
+}
+
+.bottom-text{
+    font-family: Arial;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.language{
+    text-decoration: none;
+}
+
+.language:hover{
+    text-decoration: underline;
+}
